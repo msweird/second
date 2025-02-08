@@ -1,0 +1,30 @@
+.mediaSection{
+    width: 1510px;
+    height: 140px;
+    background: rgba(248, 239, 239, 1);
+}
+
+.social{
+    display: flex;
+    width: 1510px;
+    height: 140px;
+    background: rgba(248, 239, 239, 1);
+}
+
+.socialIcons{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 670px;
+    margin-top: 35px;
+    gap: 30px;
+}
+
+.socialText{
+    text-align: start;
+    margin-left: 170px;
+    display: flex;
+    flex-direction: column;
+}

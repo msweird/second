@@ -1,0 +1,252 @@
+* {
+    font-family: "Raleway";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1508px;
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 1510px;
+}
+
+.wrapper {
+    width: 1508px;
+    height: 900px;
+    background: rgba(245, 245, 245, 1);
+    color: #f5f5f5;
+}
+
+label {
+    width: Hug (70px)px;
+    height: Fixed (39px)px;
+    padding: 8px 16px 8px 16px;
+    gap: 10px;
+    border-radius: 5px 0px 0px 0px;
+}
+
+.radio {
+    width: 203px;
+    height: 40px;
+}
+
+.tab>input[type="radio"],
+.tab-content {
+    display: none;
+    padding: 20px;
+    border: 1px solid rgba(198, 203, 205, 1);
+}
+
+
+
+.tab {
+    margin: 50px auto;
+    max-width: 1170px;
+    height: 540px;
+}
+
+/*.tab-content {
+    display: none;
+    padding: 20px;
+    align-items: center;
+}*/
+
+#tab1:checked~#content1,
+#tab2:checked~#content2,
+#tab3:checked~#content3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-tab {
+    font-family: "Open Sans" sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.tab-text {
+    font-family: "Raleway";
+    width: 570px;
+    font-weight: 400;
+    height: 210px;
+    left: 270px;
+    color: rgba(0, 0, 0, 1);
+    margin-left: 50px;
+    margin-top: 50px;
+    size: 18px;
+    line-height: 21.13px;
+}
+
+
+button {
+    width: 270px;
+    height: 58px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+
+.meme {
+    width: 470px;
+    height: 500px;
+}
+
+.awesome {
+    margin: 50px auto;
+    max-width: 1170px;
+    height: 665px;
+    top: 1853px;
+    left: 171px;
+    text-align: center;
+}
+
+.title {
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    margin: 50px auto;
+}
+
+.text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.13px;
+    text-align: center;
+    color: #86878B;
+    margin: 30px auto;
+}
+
+.icon {
+    margin-top: -30px;
+    margin-bottom: -30px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.13px;
+    margin: 50px;
+}
+
+.titleCard {
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.68px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px
+}
+
+
+
+.pricing {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+.titlePricing {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42.26px;
+    text-align: center;
+    color: #000;
+    padding: 50px;
+}
+
+
+.separator {
+    width: 170px;
+    margin: 0 auto;
+    display: flex;
+}
+
+
+.lorem {
+    width: 1169px;
+    height: 21px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.13px;
+    color: #86878B;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.pricingCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+
+.card {
+    width: 370px;
+    height: 510px;
+}
+
+
+li {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.13px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price {
+    font-size: 36px;
+    font-weight: 700;
+    width: 100%;
+    height: 100px;
+}
+
+.open {
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.68px;
+}
+
+.bgBlack {
+    background: #333333;
+    border: 2px solid #F5F5F5;
+}
+
+.bgWhite {
+    color: #86878B;
+    height: 50px;
+    background: #FFFFFF;
+    border: 2px solid #F5F5F5;
+}
+
+.free,
+.open {
+    height: 50px;
+}
+
+.free {
+    color: #FFFFFF80;
+}
+
+.Optima {
+    margin-top: -30px;
+    box-shadow: 0 5px 5px 5px rgba(51, 51, 51, 0.2);
+
+}
