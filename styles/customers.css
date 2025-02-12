@@ -1,0 +1,22 @@
+.commentCards {
+    width: 370px;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+.commentText {
+    width: 370px;
+    height: 105px;
+    border-radius: 10px;
+    background: rgba(226, 226, 226, 1);
+    text-align: center;
+    color: rgba(134, 135, 139, 1);
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+}
