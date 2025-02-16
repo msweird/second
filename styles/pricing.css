@@ -19,11 +19,6 @@ body {
     color: #f5f5f5;
 }
 
-.radio {
-    width: 203px;
-    height: 40px;
-}
-
 .tab>input[type="radio"]{
     display: none;
 }
