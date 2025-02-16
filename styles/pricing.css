@@ -20,11 +20,7 @@ body {
 }
 
 label {
-    width: Hug (70px)px;
-    height: Fixed (39px)px;
     padding: 8px 16px 8px 16px;
-    gap: 10px;
-    border-radius: 5px 0px 0px 0px;
 }
 
 .radio {
@@ -32,39 +28,60 @@ label {
     height: 40px;
 }
 
-.tab>input[type="radio"],
-.tab-content {
+.tab>input[type="radio"]{
     display: none;
-    padding: 20px;
-    border: 1px solid rgba(198, 203, 205, 1);
 }
-
-
-
-.tab {
-    margin: 50px auto;
-    max-width: 1170px;
-    height: 540px;
-}
-
-/*.tab-content {
-    display: none;
-    padding: 20px;
-    align-items: center;
-}*/
 
 #tab1:checked~#content1,
 #tab2:checked~#content2,
-#tab3:checked~#content3 {
+#tab3:checked~#content3{
     display: flex;
-    justify-content: space-between;
 }
 
-.text-tab {
+.tab>label{
+    display: inline-block;
+    text-align: center;
+    /*padding: 10px;*/
+    width: 184px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.tab>input[type="radio"]:checked+label {
+    border-right: 1px solid rgba(198, 203, 205, 1);
+    border-left: 1px solid rgba(198, 203, 205, 1);
+    border-top: 1px solid rgba(198, 203, 205, 1);
+    border-radius: 5px 5px 0 0;
+}
+
+
+.tab-content {
+    display: none;
+    width: 1170px;
+    height: 500px;
+    border: 1px solid rgba(198, 203, 205, 1);
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+.tab {
+    margin: 50px auto 0;
+    max-width: 1170px;
+}
+
+.tabcontent{
+    width: 700px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0;
+}
+
+.title-tab {
     font-family: "Open Sans" sans-serif;
     font-size: 30px;
     font-weight: 700;
-    text-align: left;
     margin-top: 30px;
     margin-left: 50px;
 }
@@ -84,11 +101,13 @@ label {
 
 
 button {
+    font-family: "Open Sans" sans-serif;
     width: 270px;
     height: 58px;
-    display: flex;
-    flex-direction: row;
     margin-left: 50px;
+    background: rgba(236, 121, 121, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
 }
 
 .meme {
@@ -249,4 +268,72 @@ li {
     margin-top: -30px;
     box-shadow: 0 5px 5px 5px rgba(51, 51, 51, 0.2);
 
+}
+
+.customers {
+    margin: 50px auto;
+    max-width: 1170px;
+    height: 665px;
+    top: 1853px;
+    left: 171px;
+    text-align: center;
+}
+
+.commentCards {
+    width: 370px;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+.commentText {
+    width: 370px;
+    height: 105px;
+    border-radius: 10px;
+    background: rgba(226, 226, 226, 1);
+    text-align: center;
+    color: rgba(134, 135, 139, 1);
+}
+
+#triangle-down {
+    width: 0px;
+    height: 0px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 30px solid rgba(226, 226, 226, 1);
+    margin-top: -15px;
+    margin-left: 50px;
+}
+
+.custPhoto {
+    width: 70px;
+    height: 70px;
+    margin-left: -270px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-left: 100px;
+    margin-top: -60px;
+}
+
+.name {
+    font-family: "Open Sans" sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32.68px;
+    letter-spacing: 0%;
+    color: rgba(0, 0, 0, 1);
+}
+
+.manager {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.13px;
+    letter-spacing: 0%;
+    color: rgba(0, 0, 0, 1);
 }
