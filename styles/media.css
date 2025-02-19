@@ -1,17 +1,17 @@
-.mediaSection{
+.mediaSection {
     width: 1510px;
     height: 140px;
     background: rgba(248, 239, 239, 1);
 }
 
-.social{
+.social {
     display: flex;
     width: 1510px;
     height: 140px;
     background: rgba(248, 239, 239, 1);
 }
 
-.socialIcons{
+.socialIcons {
     width: 70px;
     height: 70px;
     display: flex;
@@ -21,9 +21,21 @@
     gap: 10px;
 }
 
-.socialText{
+.socialText {
     text-align: start;
     margin-left: 170px;
     display: flex;
     flex-direction: column;
+}
+
+.social_title {
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32.68px;
+    letter-spacing: 0%;
+}
+
+.MediaText{
+    color: rgba(134, 135, 139, 1);
 }
