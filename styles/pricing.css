@@ -19,6 +19,53 @@ body {
     color: #f5f5f5;
 }
 
+.mediaSection {
+    width: 1510px;
+    height: 140px;
+    background: rgba(248, 239, 239, 1);
+}
+
+.social {
+    display: flex;
+    width: 1510px;
+    height: 140px;
+    background: rgba(248, 239, 239, 1);
+}
+
+.socialIcons {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 350px;
+    margin-top: 35px;
+    gap: 25px;
+
+}
+
+.socialText {
+    text-align: start;
+    margin-left: 170px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+.social_title {
+    font-family: "Open Sans" sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32.68px;
+}
+
+.MediaText{
+    color: rgba(134, 135, 139, 1);
+    width: 470px;
+    height: 42px;
+}
+
 .tab>input[type="radio"]{
     display: none;
 }
