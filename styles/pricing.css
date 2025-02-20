@@ -60,23 +60,23 @@ body {
     line-height: 32.68px;
 }
 
-.MediaText{
+.MediaText {
     color: rgba(134, 135, 139, 1);
     width: 470px;
     height: 42px;
 }
 
-.tab>input[type="radio"]{
+.tab>input[type="radio"] {
     display: none;
 }
 
 #tab1:checked~#content1,
 #tab2:checked~#content2,
-#tab3:checked~#content3{
+#tab3:checked~#content3 {
     display: flex;
 }
 
-.tab>label{
+.tab>label {
     display: inline-block;
     text-align: center;
     width: 184px;
@@ -109,7 +109,7 @@ body {
     max-width: 1170px;
 }
 
-.tabcontent{
+.tabcontent {
     width: 700px;
     padding-left: 40px;
     padding-right: 40px;
@@ -138,7 +138,7 @@ body {
 }
 
 
-button {
+.pinkbutton {
     font-family: "Open Sans" sans-serif;
     width: 270px;
     height: 58px;
@@ -148,7 +148,7 @@ button {
     border: none;
 }
 
-.pic{
+.pic {
     width: 470px;
     height: 498px;
 }
@@ -384,4 +384,48 @@ li {
     line-height: 21.13px;
     letter-spacing: 0%;
     color: rgba(0, 0, 0, 1);
+}
+
+.stylishdesign {
+    width: 1510px;
+    height: 442px;
+    background-image: url("../img/bg_pic.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ourdesign {
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.stylish_title {
+    font-family: "Raleway" sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42.26px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 50px;
+}
+
+.lorem_stylish {
+    font-family: "Raleway" sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.13px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 40px;
+}
+
+.stylish_button{
+    font-family: "Open Sans" sans-serif;
+    width: 270px;
+    height: 58px;
+    color:  rgba(255, 255, 255, 1);
+    font-size: 16px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 1);
+    margin-top: 60px;
 }
