@@ -6,51 +6,50 @@
 }
 
 body {
-    width: 1508px;
     margin: 0 auto;
+    padding: 0;
     min-width: 320px;
-    max-width: 1510px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 .wrapper {
-    width: 1508px;
+    width: 100%;
     height: 900px;
     background: rgba(245, 245, 245, 1);
     color: #f5f5f5;
 }
 
 .mediaSection {
-    width: 1510px;
+    width: 100%;
     height: 140px;
     background: rgba(248, 239, 239, 1);
 }
 
 .social {
     display: flex;
-    width: 1510px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
     height: 140px;
-    background: rgba(248, 239, 239, 1);
 }
 
 .socialIcons {
-    width: 70px;
-    height: 70px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-left: 350px;
-    margin-top: 35px;
     gap: 25px;
-
 }
 
 .socialText {
-    text-align: start;
-    margin-left: 170px;
+    margin-left: 0;
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
     gap: 15px;
+    max-width: 500px;
 }
 
 .social_title {
@@ -65,6 +64,7 @@ body {
     width: 470px;
     height: 42px;
 }
+
 
 .tab>input[type="radio"] {
     display: none;
@@ -387,7 +387,7 @@ li {
 }
 
 .stylishdesign {
-    width: 1510px;
+    width: 100%;
     height: 442px;
     background-image: url("../img/bg_pic.jpg");
     background-size: cover;
