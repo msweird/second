@@ -1,0 +1,100 @@
+.banner {
+    position: relative;
+    width: 100%;
+    height: 1026px;
+    background-image: url("../img/jr-korpa-AZXmmBM76V4-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner_box_logo {
+    height: 100px;
+    width: 270px;
+}
+
+.banner_box {
+    display: flex;
+    flex-direction: column;
+    max-width: 670px;
+}
+
+
+.heading {
+    font-family: "Raleway" sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56.35px;
+}
+
+.lorem_banner_box {
+    font-family: "Raleway" sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.13px;
+}
+
+.banner_button {
+    font-family: "Open Sans" sans-serif;
+    width: 270px;
+    height: 58px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 1);
+}
+
+.form_container {
+    width: 470px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+}
+
+.free_trial_form{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    flex-grow: 1;
+}
+
+.highlight {
+    color: rgba(236, 121, 121, 1);
+}
+
+.form_header {
+    font-family: "Open Sans" sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32.68px;
+    text-align: center;
+}
+
+.form_button {
+    width: 100%;
+    height: 60px;
+    border: 0;
+    font-size: 15px;
+    background-color: rgba(236, 121, 121, 1);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 0 0 10px 10px;
+    align-self: flex-end;
+    margin-top: auto;
+}
+
+.form_item {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid rgba(189, 189, 189, 1);
+    width: 370px;
+    height: 38px;
+    font-family: "Open Sans" sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.07px;
+    margin-top: 5px;
+}
