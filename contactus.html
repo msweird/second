@@ -17,7 +17,13 @@
                 <h5 class="lorem_contact">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
             </div>
             <div class="contact_us_form">
-
+                <form class="contact_us_form" action="/submit" method="post">
+                    <input class="contact_form_item" type="text" id="name" placeholder="Name" required>
+                    <input class="contact_form_item" type="email" id="email" placeholder="Email" required>
+                    <input class="contact_form_item" type="password" id="password" placeholder="Password" required>
+                    <textarea class="contact_form_item message_field" name="message" id="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="contact_form_button">Send Message</button>
+                </form>
             </div>
         </div>
     </section>

@@ -1,0 +1,30 @@
+.contact_us_text {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.contact_us_title {
+    font-family: "Raleway" sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.lorem_contact {
+    font-family: "Raleway" sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.contact_form_item{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid rgba(189, 189, 189, 1);
+    width: 570px;
+    height: 38px;
+    font-family: "Open Sans" sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 1.2;
+}
