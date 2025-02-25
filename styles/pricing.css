@@ -25,10 +25,10 @@ body {
 }
 
 .banner {
-    /*position: relative;*/
+    position: relative;
     width: 100%;
     height: 1026px;
-    background-image: url("../img/jr-korpa-AZXmmBM76V4-unsplash.jpg");
+    background-image: url("../img/pexels-adrien-olichon-1257089-2387793.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -42,7 +42,7 @@ body {
 }
 
 .banner_box_logo {
-    height: 100px;
+    height: 90px;
     width: 200px;
 }
 
@@ -51,6 +51,8 @@ body {
     flex-direction: column;
     max-width: 670px;
     margin-top: 280px;
+    color: rgba(255, 255, 255, 1);
+    
 }
 
 
@@ -58,14 +60,16 @@ body {
     font-family: "Raleway" sans-serif;
     font-weight: 500;
     font-size: 48px;
-    line-height: 56.35px;
+    margin-bottom: 30px;
 }
 
 .lorem_banner_box {
-    font-family: "Raleway" sans-serif;
+    font-family: "Raleway" serif;
     font-weight: 400;
     font-size: 18px;
-    line-height: 21.13px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
 }
 
 .banner_button {
@@ -103,8 +107,10 @@ body {
 .free_trial_form{
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    align-items: center;
+    gap: 30px;
     flex-grow: 1;
+    margin-top: 30px;
 }
 
 .highlight {
@@ -117,6 +123,7 @@ body {
     font-size: 24px;
     line-height: 32.68px;
     text-align: center;
+    margin-top: 30px;
 }
 
 .form_button {
@@ -145,9 +152,9 @@ body {
     font-family: "Open Sans" sans-serif;
     font-weight: 400;
     font-size: 14px;
-    line-height: 19.07px;
-    margin-top: 5px;
+    margin-top: 20px;
     align-self: center;
+    line-height: 1.2;
 }
 
 .mediaSection {
