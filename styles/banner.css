@@ -1,5 +1,5 @@
 .banner {
-    position: relative;
+    /*position: relative;*/
     width: 100%;
     height: 1026px;
     background-image: url("../img/jr-korpa-AZXmmBM76V4-unsplash.jpg");
@@ -8,15 +8,23 @@
     background-repeat: no-repeat;
 }
 
+.banner_box_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 .banner_box_logo {
     height: 100px;
-    width: 270px;
+    width: 200px;
 }
 
 .banner_box {
     display: flex;
     flex-direction: column;
     max-width: 670px;
+    margin-top: 280px;
 }
 
 
@@ -44,6 +52,17 @@
     border: 2px solid rgba(255, 255, 255, 1);
 }
 
+.banner_button:hover{
+    border: 2px solid rgba(236, 121, 121, 1);
+    color: rgba(236, 121, 121, 1);
+}
+
+.banner_button::after{
+    background: rgba(171, 73, 73, 1);
+    border: 2px solid rgba(171, 73, 73, 1);
+}
+
+
 .form_container {
     width: 470px;
     height: 450px;
@@ -52,6 +71,7 @@
     justify-content: space-between;
     background-color: rgba(255, 255, 255, 1);
     border-radius: 10px;
+    margin-top: 280px;
 }
 
 .free_trial_form{
@@ -85,6 +105,10 @@
     margin-top: auto;
 }
 
+.form_button:hover{
+    background: rgba(171, 73, 73, 1);
+}
+
 .form_item {
     border-top: 0;
     border-left: 0;
@@ -97,4 +121,5 @@
     font-size: 14px;
     line-height: 19.07px;
     margin-top: 5px;
+    align-self: center;
 }
