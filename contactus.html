@@ -18,10 +18,15 @@
             </div>
             <div class="contact_us_form">
                 <form class="contact_us_form" action="/submit" method="post">
-                    <input class="contact_form_item" type="text" id="name" placeholder="Name" required>
-                    <input class="contact_form_item" type="email" id="email" placeholder="Email" required>
-                    <input class="contact_form_item" type="password" id="password" placeholder="Password" required>
-                    <textarea class="contact_form_item message_field" name="message" id="message" placeholder="Message" required></textarea>
+                    <div class="contact_grid">
+                        <div class="form_column">
+                        <input class="contact_form_item" type="text" id="name" placeholder="Name" required>
+                        <input class="contact_form_item" type="email" id="email" placeholder="Email" required>
+                        <input class="contact_form_item" type="password" id="password" placeholder="Password" required>
+                    </div>
+                        <textarea class="contact_form_item message_field" name="message" id="message"
+                         placeholder="Message" required></textarea>
+                    </div>
                     <button type="submit" class="contact_form_button">Send Message</button>
                 </form>
             </div>

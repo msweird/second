@@ -1,7 +1,10 @@
-.contact_us_text {
+.contact_us_content{
+    width: 1170px;
+    padding: 40px 20px;
     text-align: center;
     margin: 50px auto;
 }
+
 
 .contact_us_title {
     font-family: "Raleway" sans-serif;
@@ -15,16 +18,43 @@
     font-size: 18px;
 }
 
+.contact_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
 .contact_form_item{
+    width: 100%;
+    height: 38px;
     border-top: 0;
     border-left: 0;
     border-right: 0;
     border-bottom: 1px solid rgba(189, 189, 189, 1);
-    width: 570px;
-    height: 38px;
     font-family: "Open Sans" sans-serif;
     font-weight: 400;
     font-size: 14px;
     margin-top: 20px;
     line-height: 1.2;
 }
+
+.message_field{
+    height: 160px;
+    resize: none;
+}
+
+.contact_form_button{ 
+    display: block;
+    width: 370px;
+    height: 58px;
+    margin: 20px auto 0;
+    padding: 10px;
+    border: none;
+    background: rgba(236, 121, 121, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.contact_form_button:hover{
+    background: rgba(171, 73, 73, 1);
+}
+
