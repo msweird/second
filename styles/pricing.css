@@ -18,6 +18,7 @@ header {
     z-index: 1000;
 }
 
+
 .header_container {
     display: flex;
     justify-content: space-between;
@@ -73,6 +74,7 @@ header {
     background-repeat: no-repeat;
 }
 
+
 .banner_box_content{
     display: flex;
     flex-direction: row;
@@ -91,7 +93,6 @@ header {
     max-width: 670px;
     margin-top: 280px;
     color: rgba(255, 255, 255, 1);
-    
 }
 
 
@@ -310,7 +311,7 @@ header {
 }
 
 
-.pinkbutton {
+.tab_content_button {
     font-family: "Open Sans" sans-serif;
     width: 270px;
     height: 58px;
@@ -320,7 +321,7 @@ header {
     border: none;
 }
 
-.pinkbutton:hover{
+.tab_content_button:hover{
     background: rgba(171, 73, 73, 1);
 }
 
@@ -349,7 +350,7 @@ header {
     font-weight: 400;
     font-style: normal;
     font-size: 36px;
-    margin: 50px auto;
+    margin: auto;
 }
 
 .text {
@@ -358,11 +359,11 @@ header {
     line-height: 21.13px;
     text-align: center;
     color: #86878B;
-    margin: 30px auto;
+    margin: auto;
 }
 
 .icon {
-    margin-top: -30px;
+    margin-top: -40px;
     margin-bottom: -30px;
 }
 
@@ -402,7 +403,7 @@ header {
     line-height: 42.26px;
     text-align: center;
     color: #000;
-    padding: 50px;
+    /*padding: 50px;*/
 }
 
 
@@ -410,6 +411,8 @@ header {
     width: 170px;
     margin: 0 auto;
     display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 
@@ -421,7 +424,7 @@ header {
     line-height: 21.13px;
     color: #86878B;
     text-align: center;
-    margin: 50px auto;
+    margin: auto;
 }
 
 .pricingCards {
@@ -430,13 +433,13 @@ header {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    padding: 30px;
+    padding: 50px;
 }
 
 
 .card {
     width: 370px;
-    height: 510px;
+    height: 500px;
 }
 
 
@@ -491,13 +494,29 @@ li {
 }
 
 .customers {
-    padding-top: 40px;
+    padding: 40px;
     margin: 50px auto;
     max-width: 1170px;
     height: 665px;
-    top: 1853px;
     left: 171px;
     text-align: center;
+}
+
+.customers_title{
+    font-family: "Raleway" sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42.26px;
+    text-align: center;    
+}
+
+.customers_lorem{
+    font-family: "Raleway" sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.13px;
+    text-align: center;    
+    color: rgba(134, 135, 139, 1);
 }
 
 .commentCards {
@@ -506,6 +525,7 @@ li {
     display: flex;
     flex-direction: row;
     gap: 20px;
+    padding-top: 30px;
 }
 
 
@@ -583,7 +603,6 @@ li {
     font-size: 36px;
     line-height: 42.26px;
     color: rgba(255, 255, 255, 1);
-    margin-bottom: 50px;
 }
 
 .lorem_stylish {
@@ -592,7 +611,6 @@ li {
     font-size: 18px;
     line-height: 21.13px;
     color: rgba(255, 255, 255, 1);
-    margin-top: 40px;
 }
 
 .stylish_button{
@@ -625,14 +643,12 @@ li {
     font-family: "Raleway" sans-serif;
     font-weight: 400;
     font-size: 36px;
-    margin-bottom: 50px;
 }
 
 .lorem_contact {
     font-family: "Raleway" sans-serif;
     font-weight: 400;
     font-size: 18px;
-    margin-top: 40px;
 }
 
 .contact_grid{
@@ -667,7 +683,7 @@ li {
     display: block;
     width: 370px;
     height: 58px;
-    margin: 20px auto 0;
+    margin: 50px auto 0;
     padding: 10px;
     border: none;
     background: rgba(236, 121, 121, 1);
