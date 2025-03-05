@@ -24,7 +24,7 @@ header {
     justify-content: space-between;
     align-items: center;
     max-width: 1510px;
-    margin: 0 auto;
+    margin: 0 100px;
 }
 
 .header_logo {
@@ -253,17 +253,10 @@ header {
     display: inline-block;
     text-align: center;
     width: 184px;
+    margin-bottom: -1px;
     cursor: pointer;
     padding: 8px 16px 8px 16px;
 }
-
-.tab>input[type="radio"]:checked+label {
-    border-right: 1px solid rgba(198, 203, 205, 1);
-    border-left: 1px solid rgba(198, 203, 205, 1);
-    border-top: 1px solid rgba(198, 203, 205, 1);
-    border-radius: 5px 5px 0 0;
-}
-
 
 .tab-content {
     display: none;
@@ -275,6 +268,15 @@ header {
     padding: 0;
 }
 
+
+.tab>input[type="radio"]:checked+label {
+    background-color: white;
+    border-right: 1px solid rgba(198, 203, 205, 1);
+    border-left: 1px solid rgba(198, 203, 205, 1);
+    border-top: 1px solid rgba(198, 203, 205, 1);
+    border-bottom: 1px solid white;
+    border-radius: 5px 5px 0 0;
+}
 
 .tab {
     padding-top: 40px;
