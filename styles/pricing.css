@@ -51,7 +51,7 @@ header {
     color: rgba(255, 255, 255, 1);
 }
 
-.container{
+.container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
@@ -75,7 +75,7 @@ header {
 }
 
 
-.banner_box_content{
+.banner_box_content {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -109,7 +109,6 @@ header {
     font-size: 18px;
     margin-top: 30px;
     margin-bottom: 30px;
-
 }
 
 .banner_button {
@@ -117,17 +116,17 @@ header {
     width: 270px;
     height: 58px;
     color: rgba(255, 255, 255, 1);
-    font-size: 16px;
+    font-size: 18px;
     background-color: transparent;
     border: 2px solid rgba(255, 255, 255, 1);
 }
 
-.banner_button:hover{
+.banner_button:hover {
     border: 2px solid rgba(236, 121, 121, 1);
     color: rgba(236, 121, 121, 1);
 }
 
-.banner_button::after{
+.banner_button::after {
     background: rgba(171, 73, 73, 1);
     border: 2px solid rgba(171, 73, 73, 1);
 }
@@ -144,7 +143,7 @@ header {
     margin-top: 280px;
 }
 
-.free_trial_form{
+.free_trial_form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -178,7 +177,7 @@ header {
     margin-top: auto;
 }
 
-.form_button:hover{
+.form_button:hover {
     background: rgba(171, 73, 73, 1);
 }
 
@@ -218,6 +217,11 @@ header {
     gap: 25px;
 }
 
+.icon {
+    width: 70px;
+    height: 70px;
+}
+
 .socialText {
     margin-left: 0;
     display: flex;
@@ -237,6 +241,7 @@ header {
     color: rgba(134, 135, 139, 1);
     width: 470px;
     height: 42px;
+    font-size: 18px;
 }
 
 
@@ -301,7 +306,7 @@ header {
 }
 
 .tab-text {
-    font-family: "Raleway";
+    font-family: "Raleway" sans-serif;
     width: 570px;
     font-weight: 400;
     height: 210px;
@@ -324,7 +329,7 @@ header {
     border: none;
 }
 
-.tab_content_button:hover{
+.tab_content_button:hover {
     background: rgba(171, 73, 73, 1);
 }
 
@@ -343,9 +348,12 @@ header {
     margin: 50px auto;
     max-width: 1170px;
     height: 665px;
-    top: 1853px;
-    left: 171px;
     text-align: center;
+}
+
+.icon_awesome {
+    width: 170px;
+    height: 170px;
 }
 
 .title {
@@ -356,7 +364,7 @@ header {
     margin: auto;
 }
 
-.text {
+.lorem_awesome {
     font-size: 18px;
     font-weight: 400;
     line-height: 21.13px;
@@ -365,14 +373,12 @@ header {
     margin: auto;
 }
 
-.cards {
+.cards_awesome {
     display: flex;
     flex-direction: row;
     text-align: center;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 21.13px;
-    margin: 50px;
+    margin: 20px;
+    gap: 50px;
 }
 
 .titleCard {
@@ -381,11 +387,18 @@ header {
     font-weight: 700;
     line-height: 32.68px;
     text-align: center;
-    margin-top: 40px;
-    margin-bottom: 30px
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
-
+.awesome_p {
+    font-family: "Raleway" sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.13px;
+    letter-spacing: 0%;
+    text-align: center;
+}
 
 .pricing {
     padding-top: 40px;
@@ -500,20 +513,20 @@ li {
     text-align: center;
 }
 
-.customers_title{
+.customers_title {
     font-family: "Raleway" sans-serif;
     font-weight: 400;
     font-size: 36px;
     line-height: 42.26px;
-    text-align: center;    
+    text-align: center;
 }
 
-.customers_lorem{
+.customers_lorem {
     font-family: "Raleway" sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 21.13px;
-    text-align: center;    
+    text-align: center;
     color: rgba(134, 135, 139, 1);
 }
 
@@ -611,24 +624,24 @@ li {
     color: rgba(255, 255, 255, 1);
 }
 
-.stylish_button{
+.stylish_button {
     font-family: "Open Sans" sans-serif;
     width: 270px;
     height: 58px;
-    color:  rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
     font-size: 16px;
     background-color: transparent;
     border: 2px solid rgba(255, 255, 255, 1);
     margin-top: 60px;
 }
 
-.stylish_button:hover{
+.stylish_button:hover {
     background-color: transparent;
     color: rgba(171, 73, 73, 1);
     border: 2px solid rgba(171, 73, 73, 1);
 }
 
-.contact_us_content{
+.contact_us_content {
     width: 1170px;
     height: 620px;
     padding: 40px 20px;
@@ -649,7 +662,7 @@ li {
     font-size: 18px;
 }
 
-.contact_grid{
+.contact_grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
@@ -657,7 +670,7 @@ li {
     align-items: end;
 }
 
-.contact_form_item{
+.contact_form_item {
     width: 570px;
     height: 38px;
     border-top: 0;
@@ -672,12 +685,12 @@ li {
     align-self: center;
 }
 
-.message_field{
+.message_field {
     height: 198px;
     resize: none;
 }
 
-.contact_form_button{ 
+.contact_form_button {
     display: block;
     width: 370px;
     height: 58px;
@@ -688,11 +701,11 @@ li {
     color: rgba(255, 255, 255, 1);
 }
 
-.contact_form_button:hover{
+.contact_form_button:hover {
     background: rgba(171, 73, 73, 1);
 }
 
-footer{
+footer {
     background: rgba(0, 0, 0, 1);
     width: 100%;
     height: 165px;
@@ -702,7 +715,7 @@ footer{
     align-items: center;
 }
 
-.footer_icon{
+.footer_icon {
     width: 55px;
     height: 55px;
     margin: 15px;
@@ -710,7 +723,7 @@ footer{
 
 }
 
-.footer_text{
+.footer_text {
     font-family: "Raleway" sans-serif;
     font-weight: 400;
     font-size: 18px;
@@ -718,4 +731,193 @@ footer{
     display: flex;
     justify-content: center;
     margin-top: 15px;
+}
+
+@media screen and (max-width: 1024px) {
+    .header_container {
+        max-width: 1024px;
+        margin: 0 10px 0 100px;
+    }
+
+    .container {
+        max-width: 1024px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .wrapper {
+        width: 100%;
+        height: 770px;
+    }
+
+    .banner {
+        position: relative;
+        width: 100%;
+        height: 770px;
+        background-image: url("../img/pexels-adrien-olichon-1257089-2387793.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .banner_box_content {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner_box_logo {
+        height: 75px;
+        width: 184px;
+    }
+
+    .banner_box {
+        max-width: 454px;
+    }
+
+    .heading {
+        font-size: 36px;
+    }
+
+    .lorem_banner_box {
+        font-size: 14px;
+    }
+
+    .banner_button {
+        width: 183px;
+        height: 50px;
+    }
+
+    .form_container {
+        width: 400px;
+        height: 450px;
+    }
+
+    .form_item {
+        width: 298px;
+        height: 38px;
+    }
+
+    .form_header {
+        font-size: 18px;
+    }
+
+    .mediaSection {
+        width: 100%;
+        height: 105px;
+    }
+
+    .social {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 105px;
+    }
+
+    .icon {
+        width: 64px;
+        height: 64px;
+    }
+
+    .socialIcons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .socialText {
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        max-width: 402px;
+    }
+
+    .social_title {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .MediaText {
+        width: 402px;
+        height: 32px;
+        font-size: 14px;
+    }
+
+    .tab>label {
+        width: 155px;
+    }
+
+    .tab-content {
+        width: 990px;
+        height: 385px;
+    }
+
+    .tab {
+        margin: 50px auto 0;
+        max-width: 1170px;
+    }
+
+    .tabcontent {
+        width: 480px;
+        padding-left: 0;
+        margin-right: 160px;
+    }
+
+    .title-tab {
+        font-size: 24px;
+        font-weight: 700;
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+
+    .tab-text {
+        width: 480px;
+        margin-left: 50px;
+        margin-top: 50px;
+        size: 14px;
+        line-height: 16px;
+    }
+
+    .tab_content_button {
+        width: 230px;
+        height: 58px;
+    }
+
+    .pic {
+        width: 398px;
+        height: 385px;
+    }
+
+    .meme {
+        width: 100%;
+        height: 100%;
+    }
+
+    .awesome {
+        max-width: 992px;
+        height: 518px;
+    }
+
+    .icon_awesome {
+        width: 147px;
+        height: 147px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .lorem_awesome {
+        font-size: 14px;
+        line-height: 16.44px;
+    }
+
+    .titleCard {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 }
