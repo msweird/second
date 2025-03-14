@@ -254,6 +254,7 @@ header {
 #tab2:checked~#content2,
 #tab3:checked~#content3 {
     display: flex;
+    justify-content: space-between;
 }
 
 .tab>label {
@@ -402,7 +403,6 @@ header {
 }
 
 .pricing {
-    padding-top: 40px;
     width: 100%;
     height: 100%;
     margin: 0 auto;
@@ -415,7 +415,7 @@ header {
     line-height: 42.26px;
     text-align: center;
     color: #000;
-    /*padding: 50px;*/
+    padding-top: 50px;
 }
 
 
@@ -473,7 +473,7 @@ li {
 }
 
 .open {
-    font-family: Open Sans;
+    font-family: "Open Sans" sans-serif;
     font-size: 24px;
     font-weight: 700;
     line-height: 32.68px;
@@ -566,7 +566,8 @@ li {
 .custPhoto {
     width: 70px;
     height: 70px;
-    margin-left: -270px;
+    margin-top: 30px;
+    margin-right: 270px;
 }
 
 .info {
@@ -606,7 +607,6 @@ li {
 .ourdesign {
     text-align: center;
     padding-top: 100px;
-
 }
 
 .stylish_title {
@@ -627,10 +627,10 @@ li {
 
 .stylish_button {
     font-family: "Open Sans" sans-serif;
-    width: 270px;
+    width: 370px;
     height: 58px;
     color: rgba(255, 255, 255, 1);
-    font-size: 16px;
+    font-size: 18px;
     background-color: transparent;
     border: 2px solid rgba(255, 255, 255, 1);
     margin-top: 60px;
@@ -688,7 +688,7 @@ li {
 }
 
 .message_field {
-    height: 198px;
+    height: 202px;
     resize: none;
 }
 
@@ -726,7 +726,7 @@ footer {
 }
 
 .footer_text {
-    font-family: "Raleway" sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 400;
     font-size: 18px;
     color: rgba(255, 255, 255, 0.5);
@@ -854,19 +854,18 @@ footer {
     }
 
     .tab-content {
-        width: 990px;
+        width: 100%;
         height: 385px;
     }
 
     .tab {
         margin: 50px auto 0;
-        max-width: 1170px;
+        max-width: 1024px;
     }
 
     .tabcontent {
-        width: 480px;
+        width: 400px;
         padding-left: 0;
-        margin-right: 160px;
     }
 
     .title-tab {
@@ -877,7 +876,7 @@ footer {
     }
 
     .tab-text {
-        width: 480px;
+        width: 400px;
         margin-left: 50px;
         margin-top: 50px;
         size: 14px;
@@ -921,5 +920,165 @@ footer {
     .titleCard {
         margin-top: 10px;
         margin-bottom: 10px;
+    }
+
+    .awesome_p {
+        font-size: 14px;
+    }
+
+    .titlePricing {
+        font-size: 24px;
+    }
+
+    .separator {
+        width: 140px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .lorem {
+        font-size: 14px;
+        line-height: 16.44px;
+    }
+
+    .pricingCards {
+        gap: 10px;
+        padding: 50px;
+    }
+
+    .card {
+        width: 315px;
+        height: 450px;
+    }
+
+    .bgWhite {
+        height: 45px;
+    }
+
+    .free,
+    .open {
+        height: 45px;
+    }
+
+    .customers {
+        max-width: 1024px;
+        height: 510px;
+        padding: 10px;
+        margin: 50px auto;
+    }
+
+    .customers_title {
+        font-size: 24px;
+        line-height: 28.18px;
+    }
+
+    .customers_lorem {
+        font-size: 24px;
+        line-height: 28.18px;
+    }
+
+    .commentCards {
+        width: 300px;
+        height: 180px;
+        gap: 0px;
+    }
+
+    .commentText {
+        width: 300px;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        gap: 0;
+    }
+
+    .custPhoto {
+        width: 60px;
+        height: 60px;
+        margin-top: 30px;
+        margin-right: 250px;
+    }
+
+    .name {
+        font-size: 14px;
+        line-height: 24.51px;
+    }
+
+    .manager {
+        font-size: 14px;
+        line-height: 16.44px;
+    }
+
+    .stylishdesign {
+        width: 100%;
+        height: 355px;
+    }
+
+    .ourdesign {
+        text-align: center;
+        padding-top: 70px;
+    }
+
+    .stylish_title {
+        font-size: 24px;
+    }
+
+    .lorem_stylish {
+        font-size: 14px;
+        line-height: 16.44px;
+    }
+
+    .stylish_button {
+        width: 315px;
+        height: 58px;
+    }
+
+    .contact_us_content {
+        width: 990px;
+        height: 560px;
+        padding: 20px 20px;
+        margin: 30px auto;
+    }
+
+    .contact_us_title {
+        font-size: 24px;
+    }
+
+    .lorem_contact {
+        font-size: 14px;
+    }
+
+    .contact_form_item {
+        width: 480px;
+        height: 38px;
+        font-size: 14px;
+        margin-top: 40px;
+        line-height: 1.2;
+        padding-left: 10px;
+    }
+
+    .message_field {
+        height: 202px;
+        resize: none;
+    }
+
+    .contact_form_button {
+        width: 315px;
+        height: 58px;
+        margin: 50px auto 0;
+        padding: 10px;
+    }
+
+    footer {
+        max-width: 1024px;
+        height: 165px;
+    }
+
+    .footer_icon {
+        width: 45px;
+        height: 45px;
+    }
+
+    .footer_text {
+        font-size: 14px;
     }
 }
