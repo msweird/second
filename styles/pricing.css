@@ -242,6 +242,8 @@ header {
 }
 
 .MediaText {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
     color: rgba(134, 135, 139, 1);
     width: 470px;
     height: 42px;
@@ -303,7 +305,7 @@ header {
 }
 
 .title-tab {
-    font-family: "Open Sans" sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 30px;
     font-weight: 700;
     margin-top: 30px;
@@ -311,7 +313,7 @@ header {
 }
 
 .tab-text {
-    font-family: "Raleway" sans-serif;
+    font-family: "Raleway", sans-serif;
     width: 570px;
     font-weight: 400;
     height: 210px;
@@ -325,7 +327,7 @@ header {
 
 
 .tab_content_button {
-    font-family: "Open Sans" sans-serif;
+    font-family: "Open Sans", sans-serif;
     width: 270px;
     height: 58px;
     margin-left: 50px;
@@ -387,7 +389,7 @@ header {
 }
 
 .titleCard {
-    font-family: "Open Sans" sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 24px;
     font-weight: 700;
     line-height: 32.68px;
@@ -397,7 +399,7 @@ header {
 }
 
 .awesome_p {
-    font-family: "Raleway" sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 21.13px;
@@ -1253,14 +1255,14 @@ footer {
 
     .social {
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         flex-direction: column;
         width: 100%;
         height: 240px;
     }
 
     .socialIcons {
-        gap: 35px;
+        gap: 40px;
     }
 
     .icon {
@@ -1268,13 +1270,123 @@ footer {
         height: 25px;
     }
 
+    .icon img{
+        width: 100%;
+        height: 100%;
+    }
+
     .socialText {
         gap: 15px;
-        max-width: 270px;
+        text-align: center;
     }
 
     .social_title {
         font-size: 18px;
         line-height: 24.51px;
+        text-align: center;
+    }
+
+    .MediaText {
+        height: 48px;
+        font-size: 14px;
+    }
+
+    .tab>label {
+        width: 100px;
+        padding: 8px 16px 8px 16px;
+    }
+
+    .tab-content {
+        width: 100%;
+        height: 470px;
+    }
+
+    .tab {
+        padding-top: 20px;
+        margin: 50px auto 0;
+        max-width: 767px;
+    }
+
+    .tabcontent {
+        width: 290px;
+        padding-left: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .title-tab {
+        font-size: 18px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .tab-text {
+        width: 240px;
+        text-align: center;
+        size: 13px;
+        line-height: 15px;
+    }
+
+    .tab_content_button {
+        width: 240px;
+        height: 50px;
+        margin-top: 30px;
+    }
+
+    #tab1:checked~#content1,
+#tab2:checked~#content2,
+#tab3:checked~#content3 {
+    display: flex;
+    justify-content: center;
+}
+
+    .pic {
+        display: none;
+    }
+
+    .awesome {
+        padding-top: 40px;
+        margin: 50px auto;
+        width: 290px;
+        height: 1200px;
+        text-align: center;
+    }
+
+    .icon_awesome {
+        width: 150px;
+        height: 150px;
+        margin-top: 30px;
+    }
+
+    .title {
+        font-size: 18px;
+        margin: auto;
+        line-height: 21.13px;
+    }
+
+    .lorem_awesome {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    
+    .cards_awesome {
+        flex-direction: column;
+        margin: 20px;
+        gap: 70px;
+    }
+
+    .titleCard {
+        font-size: 18px;
+        line-height: 24px;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    .awesome_p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
     }
 }
