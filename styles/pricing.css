@@ -791,10 +791,18 @@ footer {
 
     .banner_box {
         max-width: 454px;
+        margin-top: 180px;
+        gap: 30px;
     }
 
     .heading {
         font-size: 36px;
+    }
+
+    .banner_separator{
+        width: 140px;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 
     .lorem_banner_box {
@@ -809,6 +817,7 @@ footer {
     .form_container {
         width: 400px;
         height: 450px;
+        margin-top: 180px;
     }
 
     .form_item {
@@ -829,7 +838,6 @@ footer {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 100%;
         height: 105px;
     }
 
@@ -838,19 +846,23 @@ footer {
         height: 64px;
     }
 
+    .icon img{
+        width: 100%;
+        height: 100%;
+    }
+
     .socialIcons {
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 15px;
+        gap: 20px;
     }
 
     .socialText {
-        margin-left: 0;
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        max-width: 402px;
+        max-width: 400px;
+        width: 100%;
+        padding: 5px 0 5px 0;
+        gap: 5px;
     }
 
     .social_title {
@@ -859,7 +871,8 @@ footer {
     }
 
     .MediaText {
-        width: 402px;
+        max-width: 100%;
+        width: /*400px*/auto;
         height: 32px;
         font-size: 14px;
     }
@@ -1289,6 +1302,7 @@ footer {
     .socialText {
         gap: 15px;
         text-align: center;
+        width: 270px;
     }
 
     .social_title {
@@ -1408,7 +1422,7 @@ footer {
     }
 
     .pricing {
-        width: 320px;
+        width: 100%;
         height: 1480px;
         margin: 0 auto;
     }
@@ -1492,6 +1506,7 @@ footer {
     .commentCards {
         width: 290px;
         height: 180px;
+        flex-direction: column;
     }
 
     .stylishdesign {
