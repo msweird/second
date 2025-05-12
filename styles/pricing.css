@@ -230,7 +230,7 @@ header {
     margin-left: 0;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 5px;
     max-width: 500px;
 }
 
@@ -245,7 +245,8 @@ header {
     font-family: "Raleway", sans-serif;
     font-weight: 400;
     color: rgba(134, 135, 139, 1);
-    width: 470px;
+    max-width: 470px;
+    width: auto;
     height: 42px;
     font-size: 18px;
 }
@@ -273,7 +274,7 @@ header {
 
 .tab-content {
     display: none;
-    width: 1170px;
+    max-width: 1170px;
     height: 500px;
     border: 1px solid rgba(198, 203, 205, 1);
     align-items: center;
@@ -541,10 +542,10 @@ li {
     height: 180px;
     display: flex;
     flex-direction: row;
+    text-align: center;
     gap: 20px;
     padding-top: 30px;
 }
-
 
 .commentText {
     width: 370px;
@@ -815,7 +816,8 @@ footer {
     }
 
     .form_container {
-        width: 400px;
+        max-width: 400px;
+        width: 100%;
         height: 450px;
         margin-top: 180px;
     }
@@ -838,7 +840,7 @@ footer {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        height: 105px;
+        height: 100px;
     }
 
     .icon {
@@ -859,10 +861,10 @@ footer {
     }
 
     .socialText {
-        max-width: 400px;
+        max-width: 100%;
         width: 100%;
         padding: 5px 0 5px 0;
-        gap: 5px;
+        gap: 0;
     }
 
     .social_title {
@@ -872,8 +874,8 @@ footer {
 
     .MediaText {
         max-width: 100%;
-        width: /*400px*/auto;
-        height: 32px;
+        width: auto;
+        height: auto;
         font-size: 14px;
     }
 
@@ -990,10 +992,10 @@ footer {
     }
 
     .customers {
-        max-width: 1024px;
+        max-width: 992px;
         height: 510px;
-        padding: 10px;
-        margin: 50px auto;
+        /*padding: 10px;
+        margin: 50px auto;*/
     }
 
     .customers_title {
@@ -1007,9 +1009,9 @@ footer {
     }
 
     .commentCards {
-        width: 300px;
+        max-width: 300px;
         height: 180px;
-        gap: 0px;
+        gap: 20px;
     }
 
     .commentText {
@@ -1584,6 +1586,7 @@ footer {
         height: 25px;
         margin: 15px;
         color: rgba(204, 204, 204, 1);
+        margin: 0;
     }
 
     .footer_text {
