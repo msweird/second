@@ -541,7 +541,6 @@ li {
     flex-direction: row;
     justify-content: space-between;
     text-align: center;
-    /*gap: 20px;*/
     padding-top: 50px;
     margin: 0 auto;
     max-width: 1170px;
@@ -554,10 +553,10 @@ li {
     box-sizing: border-box;
 }
 
-.comment{
+/*.comment{
     width: 370px;
     height: 335px;
-}
+}*/
 
 .commentText {
     width: 330px;
@@ -1006,8 +1005,7 @@ footer {
     .customers {
         max-width: 992px;
         height: 510px;
-        /*padding: 10px;
-        margin: 50px auto;*/
+        padding: 0;
     }
 
     .customers_title {
@@ -1021,13 +1019,17 @@ footer {
     }
 
     .comment_container {
-        max-width: 300px;
-        height: 180px;
+        max-width: 990px;
         gap: 20px;
     }
 
+    .review_card{
+        min-width: 120px;
+        max-width: 300px;
+    }
+
     .commentText {
-        width: 300px;
+        max-width: 240px;
         font-size: 14px;
         display: flex;
         align-items: center;
