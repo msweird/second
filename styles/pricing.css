@@ -1525,6 +1525,30 @@ footer {
         line-height: 16px;
     }
 
+    .review_card{
+        min-width: 120px;
+        max-width: 300px;
+        height: 320px;
+        transition: all 0.3s ease;
+    }
+
+    .swiper-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .swiper-pagination-bullet {
+        background-color: white;
+        border: 1px solid rgba(134, 135, 139, 1);
+      }
+
+    .swiper-pagination-bullet-active {
+        background: rgba(236, 121, 121, 1); 
+        transform: scale(1.4);
+        border: none;
+      }
+
     .commentCards {
         width: 290px;
         height: 180px;
