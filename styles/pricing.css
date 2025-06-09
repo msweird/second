@@ -690,6 +690,10 @@ li {
     /*align-items: end;*/
 }
 
+.contact_grid{
+    height: 270px;
+}
+
 .contact_form_item {
     width: 570px;
     height: 38px;
@@ -709,7 +713,7 @@ li {
 
 .message_field{
     grid-row: span 3;
-    height: 202px;
+    height: 234px;
     resize: none;
 }
 
@@ -1108,7 +1112,7 @@ footer {
     }
 
     .message_field {
-        height: 202px;
+        height: 234px;
         resize: none;
     }
 
@@ -1601,8 +1605,10 @@ footer {
         text-align: center;
     }
 
-    .contact_grid {
-        grid-template-columns: 1fr;
+    .form_column{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .contact_form_item {
@@ -1610,15 +1616,17 @@ footer {
     }
 
     .message_field {
-        height: 202px;
+        height: 234px;
         width: 290px;
         resize: none;
+        order: 3;
     }
 
     .contact_form_button {
         width: 280px;
         height: 50px;
         font-size: 18px;
+        margin-top: 320px;
     }
 
     footer {
